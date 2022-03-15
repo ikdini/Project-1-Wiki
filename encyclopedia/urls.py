@@ -2,6 +2,7 @@ from django.urls import path
 
 from . import views
 
+# This is the main file that Django uses to match the URLs to the views.
 urlpatterns = [
     path("", views.index, name="index"),
     path("wiki/search", views.search, name="search"),

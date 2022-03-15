@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body %}
+    <!-- This is the form that will be used to edit the content of the entry. -->
     <h1>Edit Markdown Content</h1>
     <form style="width: 80%" action="{% url 'content' entry %}" method="post">
         {% csrf_token %}

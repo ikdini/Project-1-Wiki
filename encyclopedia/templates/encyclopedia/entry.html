@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body %}
+    <!-- The HTML code for the form that will be used to create a new entry. -->
     <h1>New Entry</h1>
     <form action="{% url 'new_entry' %}" style="width: 80%" method="post">
         {% csrf_token %}
