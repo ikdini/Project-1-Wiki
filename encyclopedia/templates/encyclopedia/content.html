@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body %}    
+    <!-- A filter that tells Django to render the content as safe HTML. -->
     {{ content | safe }}
     <form action="{% url 'edit' entry %}">
         <input class="btn btn-outline-info btn-sm" type="submit" value="Edit">
