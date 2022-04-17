@@ -1,2 +1,2 @@
-# Project-1-Wiki
+# Wiki
 Design a Wikipedia-like online encyclopedia.
